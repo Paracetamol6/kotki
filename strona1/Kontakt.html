@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kot</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="zdjecia/kot5.jpeg" alt="kotek"/>
+            </header>
+            <nav>
+                <a class="menu" href="projekt2.html">Leon</a><a class="menu" href="Szyszka.html">Szyszka</a><a class="menu" href="Gra.html">Gra</a><a class="menu" href="Kontakt.html">Kontakt</a>
+            </nav>
+           
+            <section>
+                <article>
+                    <h1>Napisz do mnie :)</h1>
+                    <p><img class="k1" src="zdjecia/k1 (12).jpeg" alt="lapka1" /> <b>Zapraszamy na naszego Facebooka:</b> </p>
+                <marquee direction="left" behavior="alternate" width="280" height="258">
+                     <marquee  direction="up" behavior="alternate" height="150" >
+                        <a style="text-decoration:none" href="https://www.facebook.com/profile.php?id=100078226467007"> <img class="facebook" src="zdjecia/iconmonstr-facebook-4-48.png" alt="facebook"/>
+                    </a> </marquee>
+                    </marquee>
+                </article>
+                
+            </section>
+            <form class="kontakt1" action="https://formsubmit.io/send/kotlazar6@gmail.com" method="POST"></formaction> 
+                <label for="mail">Twój e-mail</label>
+                <input
+                    id="mail"
+                    name="mail"
+                    type="mail"
+                    placeholder="Wpisz swój adres">
+                
+                <input name="_redirect" 
+                type="hidden" 
+                id="name" 
+                value="https://https://www.koty.pl/wp-content/uploads/2019/10/maly-kociaczek-e1569585063179-2-864x575.jpg">
+
+                <label for="msg">Twoja wiadomość</label>
+                <textarea
+                    id="msg"
+                    name="msg"
+                    rows="20"
+                    placeholder="Wpisz wiadomość"></textarea>
+                <input value="Wyślij" type="submit"></button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+        <a href="index.html"> 
+            <button  class="nad">Wyjdź!</button>
+        </a>
+    </body>
+</html>

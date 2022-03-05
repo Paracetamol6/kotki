@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kot</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="zdjecia/kot5.jpeg" alt="kotek"/>
+            </header>
+            <nav>
+                <a class="menu" href="projekt2.html">Leon</a><a class="menu" href="Szyszka.html">Szyszka</a><a class="menu" href="Gra.html">Gra</a><a class="menu" href="Kontakt.html">Kontakt</a>
+            </nav>
+            
+            <section class="gra">
+                <article>
+                    <h1>Gra - zgadnij liczbę</h1>
+                </article>
+                <div class="container">
+                    <h3>Podaj liczbę między 1 - 100</h3>   
+                    <input type="text" placeholder="NUM" 
+                    id="guess"><br>
+                    <button onclick="play()" id="my_btn">ENTER</button>
+                    <p id="message1">Liczba ruchów: 0</p>
+                    <p id="message2">Użyte liczby: 0</p>
+                    <p id="message3"></p>
+                </div>
+            </section>
+            <footer></footer>
+        </div>
+        <script src="gra.js"></script>
+        <a href="index.html"> 
+            <button class="nad">Wyjdź!</button>
+        </a>
+    </body>
+</html>
